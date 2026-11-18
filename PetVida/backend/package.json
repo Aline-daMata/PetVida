@@ -1,0 +1,29 @@
+{
+  "name": "petvida",
+  "version": "1.0.0",
+  "description": "Projeto curso técnico SENAC com intuito de colocar em prática conhecimento em base de dados e backend.",
+  "main": "index.js",
+ "scripts": {
+  "dev": "node --watch src/server.js",
+  "start": "node src/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aline-daMata/PetVida.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aline-daMata/PetVida/issues"
+  },
+  "homepage": "https://github.com/Aline-daMata/PetVida#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6"
+  }
+}
